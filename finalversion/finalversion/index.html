@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div id="head">
+                <div id="change">
+                    <p id="eng">English</p>
+                    <p>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</p>
+                    <p>Chinese</p>
+                </div>
+                <img src="./images/logo.png" alt="" id="img">
+                <ul id="uls">
+                    <li id="lis">ABOUT US
+                        <ul>
+                            <li>
+                                ABOUT US
+                            </li>
+                            <li>
+                                ABOUT US
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="lis">WHAT ME DO
+                        <ul>
+                            <li>
+                                ABOUT US
+                            </li>
+                            <li>
+                                ABOUT US
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="lis">GET INVOLVED
+                        <ul>
+                            <li>
+                                Event Registration
+                            </li>
+                            <li>
+                                ABOUT US
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="lis">MEMBERSHP & GIVING
+                        <ul>
+                            <li>
+                                ABOUT US
+                            </li>
+                            <li>
+                                ABOUT US
+                            </li>
+                            <li>
+                                ABOUT US
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="btn2">
+                    Login
+                </div>
+                <div id="btn1">
+                    Register
+                </div>
+                <div id="ipt">
+                    <input type="text">
+                    <img src="./images/icon.png" alt="">
+                </div>
+            </div>
+            <div id="banner">
+                <p id="p1">Ecological calculator</p>
+                <p id="p2">Activists to Celebrate</p>
+                <p id="p3">We can only solve our planet's most complex problems if we bring together a diversity</p>
+                <p id="p4">calculate and compare carbon footprints.</p>
+                <p id="p5">READ THEIR STORIES</p>
+            </div>
+            <div id="content">
+                <div id="box1">
+                    <p id="box1-p1">A Future Where People and Nature Thrive</p>
+                    <p id="box1-p2">By maximizing our ability to effect chang bctween now and 2030 we can shape
+                        abrighter future for people and our planel</p>
+                </div>
+                <div id="box2">
+                    <div id="box2-wrap">
+                        <p id="box2-p1">Who We Are ></p>
+                        <p id="box2-p2">We impact conservation in more than 70 couintriesand territorles thanks to our
+                            members, staff andscientists.</p>
+                    </div>
+                    <div id="box2-wrap" style="border-bottom: none;margin-top: 20px;">
+                        <p id="box2-p1">Who We Are ></p>
+                        <p id="box2-p2">We impact conservation in more than 70 couintriesand territorles thanks to our
+                            members, staff andscientists.</p>
+                    </div>
+                </div>
+                <div id="box2">
+                    <div id="box2-wrap">
+                        <p id="box2-p1">Who We Are ></p>
+                        <p id="box2-p2">We impact conservation in more than 70 couintriesand territorles thanks to our
+                            members, staff andscientists.</p>
+                    </div>
+                    <div id="box2-wrap" style="border-bottom: none;margin-top: 20px;">
+                        <p id="box2-p1">Who We Are ></p>
+                        <p id="box2-p2">We impact conservation in more than 70 couintriesand territorles thanks to our
+                            members, staff andscientists.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="form-ct" style="display: none;">
+        <img src="./images/close.png" alt="">
+        <form action="">
+            <div id="userInfo">
+                <p style="color: white">User details:</p>
+                <span>Given name：</span><input type="text" id="input">
+                <span>Surname：</span><input type="text" id="input">
+                <span>Username：</span><input type="text" id="input">
+                <span>Password：</span><input type="password" id="input">
+            </div>
+
+            <div id="addressInfo">
+                <p style="color: white">Addresses:</p>
+                <span>Home Address：</span><input type="text" id="input">
+                <span>Work Address：</span><input type="text" id="input">
+            </div>
+
+            <div id="contactInfo">
+                <p style="color: white">Contacts:</p>
+                <span>Mobile Number：</span><input type="text" id="input">
+                <span>Email：</span><input type="text" id="input">
+            </div>
+
+
+            <div id="mt">
+                <input type="submit" id="submit" value="submit">
+                <input type="reset" id="reset" value="reset">
+            </div>
+        </form>
+    </div>
+    <script>
+        var img = document.querySelector('#form-ct img')
+        var form = document.querySelector('#form-ct')
+        var btn1 = document.querySelector('#btn1')
+        btn1.onclick = function () {
+            form.style.display = 'block'
+        }
+        img.onclick = function () {
+            form.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
